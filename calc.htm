@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora iterativa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https: //fonts.googleapis.com/css2? family= Noto+Sans & display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <header>
+               <h1>CALCULADORA</h1> 
+            </header>
+            <label for="number">Digite seu primeiro numero:</label>
+            <input type="number" placeholder="Digite Algum numero..." id="n1">
+            <label for="">Sua operação a ser realizada:</label>
+            <select name="" id="selector">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <label for="number">Digite seu segundo numero:</label>
+            <input type="number" placeholder="Digite algum numero..." id="n2">
+            <button onclick=calcular(n1,n2)><strong>Calcular</strong></button>
+
+                <h1 id="Resultado"></h1>
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+       <script src="script.js"></script>
+
+    </div>
+</body>
+</html>
